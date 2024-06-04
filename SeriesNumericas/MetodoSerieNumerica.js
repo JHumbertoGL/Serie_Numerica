@@ -1,4 +1,4 @@
-class SerieCalculadora {
+export class MetodoSerieNumerica {
 
     numPrimo(n) {
         if (n <= 1) return false;
@@ -50,6 +50,6 @@ class SerieCalculadora {
         return serie;
     }
 }
-const serieCalculadora = new SerieCalculadora();
+const serieCalculadora = new MetodoSerieNumerica();
 const termino = serieCalculadora.calcularTerminoSerie(5);
 console.log("El término n de la serie es:", termino);
