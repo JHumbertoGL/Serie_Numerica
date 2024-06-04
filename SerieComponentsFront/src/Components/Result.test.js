@@ -18,7 +18,7 @@ describe('CalcularSerie', () => {
     [8, 377],
     [9, 610],
     [10, 987]
-  ])('debería calcular correctamente el término de la serie para n=%i', (n, expectedResult) => {
+  ])('debería calcular correctamente el término de la serie para n=%i del Front-end', (n, expectedResult) => {
     const result = calcularSerie.calcularTerminoSerie(n);
     expect(result);
   });
