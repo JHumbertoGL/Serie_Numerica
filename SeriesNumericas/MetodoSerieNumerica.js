@@ -46,6 +46,7 @@ export class MetodoSerieNumerica {
         const triangular = this.calcularNumeroTriangular(n);
         const fibonacci = this.calcularFibonacci(n + 1);
         const serie = primo - (2 * triangular) + fibonacci[n]; 
+        // console.log("Primo:",primo,",","triangular:",triangular,",","fibonacci:", fibonacci[n], "Resultado = " ,primo, "-","2*",triangular,"+",fibonacci[n]," = ",serie);
     
         return serie;
     }
